@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: rgb(195, 253, 253);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:white;
+}
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(photo/tourism-travel-visa-passport-travel-b58aa63abe48edb9ace2d532075ab2b9.png) no-repeat;
+    background-size: 400px;
+    background-position: bottom 0px right 100px;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #55e6e6;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #30fff5;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+
+}
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 1.7em;
+    padding-right: 30px;
+    text-decoration: none;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #0a49f6;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #00f7ff;
+    width: 21.15em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+.icon{
+    color: #0a49f6;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #0a49f6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
